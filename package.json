@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-notes-manager",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace frontend start\""
+  },
+  "devDependencies": {
+    "concurently": "^8.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BorisPlotnikov/fullstack-notes-manager.git",
+  "license": "MIT"
+}
