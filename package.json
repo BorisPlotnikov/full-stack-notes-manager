@@ -1,18 +1,33 @@
 {
   "name": "fullstack-notes-manager",
   "private": true,
+  "version": "1.0.0",
   "workspaces": [
     "frontend",
     "backend"
   ],
   "scripts": {
-    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace frontend start\""
+    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace frontend start\"",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "build": "yarn workspace backend build && yarn workspace frontend build"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "eslint": "^9.37.0",
+    "@eslint/js": "^9.37.0",
+    "eslint-plugin-import": "^2.32.0"
   },
-  "version": "1.0.0",
-  "main": "index.js",
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:import/recommended"
+    ],
+    "env": {
+      "node": true,
+      "browser": true,
+      "es2021": true
+    }
+  },
   "repository": "https://github.com/BorisPlotnikov/fullstack-notes-manager.git",
   "license": "MIT"
 }
