@@ -1,3 +1,28 @@
+
+<p align="center">
+    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager">
+        <img alt="License" src="https://img.shields.io/github/license/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
+    </a>
+    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/commits/main">
+        <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
+    </a>
+    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
+        <img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main&style=flat-square" />
+    </a>
+    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/issues">
+        <img alt="Issues" src="https://img.shields.io/github/issues/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
+    </a>
+    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/pulls">
+        <img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
+    </a>
+    <a href="#">
+        <img alt="Tech Stack" src="https://img.shields.io/badge/stack-React%20%7C%20Express%20%7C%20MongoDB%20%7C%20Node.js-blue?style=flat-square" />
+    </a>
+    <a href="#">
+        <img alt="Code Style" src="https://img.shields.io/badge/code%20style-eslint-brightgreen?style=flat-square" />
+    </a>
+</p>
+
 # 📝 Fullstack Notes Manager
 
 A full-stack notes management application built with **React**, **Express**, **Node.js**, and **MongoDB** — organized as a monorepo using **Yarn Workspaces**.
