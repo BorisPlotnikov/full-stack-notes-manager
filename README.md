@@ -8,7 +8,7 @@
 
 # 📝 Fullstack Notes Manager
 
-<p align="center">
+<p>
   <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main" alt="Build Status" />
   </a>
