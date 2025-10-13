@@ -1,29 +1,28 @@
 
-<p align="center">
-    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager">
-        <img alt="License" src="https://img.shields.io/github/license/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
-    </a>
-    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/commits/main">
-        <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
-    </a>
-    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
-        <img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main&style=flat-square" />
-    </a>
-    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/issues">
-        <img alt="Issues" src="https://img.shields.io/github/issues/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
-    </a>
-    <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/pulls">
-        <img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/BorisPlotnikov/fullstack-notes-manager?style=flat-square" />
-    </a>
-    <a href="#">
-        <img alt="Tech Stack" src="https://img.shields.io/badge/stack-React%20%7C%20Express%20%7C%20MongoDB%20%7C%20Node.js-blue?style=flat-square" />
-    </a>
-    <a href="#">
-        <img alt="Code Style" src="https://img.shields.io/badge/code%20style-eslint-brightgreen?style=flat-square" />
-    </a>
-</p>
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
+[![Express](https://img.shields.io/badge/Express-4.18.2-grey?logo=express)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb)](https://mongodb.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js)](https://nodejs.org/)
+[![Yarn Workspaces](https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn)](https://classic.yarnpkg.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # 📝 Fullstack Notes Manager
+
+<p align="center">
+  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main" alt="Build Status" />
+  </a>
+  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/issues">
+    <img src="https://img.shields.io/github/issues/BorisPlotnikov/fullstack-notes-manager" alt="Open Issues" />
+  </a>
+  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/pulls">
+    <img src="https://img.shields.io/github/issues-pr/BorisPlotnikov/fullstack-notes-manager" alt="Open PRs" />
+  </a>
+  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/commits/main">
+    <img src="https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager" alt="Last Commit" />
+  </a>
+</p>
+
 
 A full-stack notes management application built with **React**, **Express**, **Node.js**, and **MongoDB** — organized as a monorepo using **Yarn Workspaces**.
 
