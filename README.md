@@ -1,35 +1,17 @@
-
-[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
-[![Express](https://img.shields.io/badge/Express-4.18.2-grey?logo=express)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb)](https://mongodb.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js)](https://nodejs.org/)
-[![Yarn Workspaces](https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn)](https://classic.yarnpkg.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-# 📝 Full Stack Notes Manager
-
 <p align="center">
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main" alt="Build Status" />
-  </a>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/issues">
-    <img src="https://img.shields.io/github/issues/BorisPlotnikov/fullstack-notes-manager" alt="Open Issues" />
-  </a>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/pulls">
-    <img src="https://img.shields.io/github/issues-pr/BorisPlotnikov/fullstack-notes-manager" alt="Open PRs" />
-  </a>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/commits/main">
-    <img src="https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager" alt="Last Commit" />
-  </a>
+  [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
+  [![Express](https://img.shields.io/badge/Express-4.18.2-grey?logo=express)](https://expressjs.com/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb)](https://mongodb.com/)
+  [![Node.js](https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js)](https://nodejs.org/)
+  [![Yarn Workspaces](https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn)](https://classic.yarnpkg.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 </p>
 
+# 📝 Full Stack Notes Manager
 
 A full-stack notes management application built with **React**, **Express**, **Node.js**, and **MongoDB** — organized as a monorepo using **Yarn Workspaces**.
 
 It features clean architecture, standardized error handling, custom React hooks, and responsive styling with Bootstrap.
-
-![GitHub last commit](https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager)
-![GitHub license](https://img.shields.io/github/license/BorisPlotnikov/fullstack-notes-manager)
 
 ---
 
