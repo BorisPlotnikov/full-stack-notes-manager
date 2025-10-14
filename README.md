@@ -1,11 +1,9 @@
-<p align="center">
   [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
   [![Express](https://img.shields.io/badge/Express-4.18.2-grey?logo=express)](https://expressjs.com/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb)](https://mongodb.com/)
   [![Node.js](https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js)](https://nodejs.org/)
   [![Yarn Workspaces](https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn)](https://classic.yarnpkg.com/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-</p>
 
 # 📝 Full Stack Notes Manager
 
