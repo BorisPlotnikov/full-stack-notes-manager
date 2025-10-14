@@ -6,9 +6,9 @@
 [![Yarn Workspaces](https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn)](https://classic.yarnpkg.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# 📝 Fullstack Notes Manager
+# 📝 Full Stack Notes Manager
 
-<p style="text-align: center;">
+<p align="center">
   <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main" alt="Build Status" />
   </a>
