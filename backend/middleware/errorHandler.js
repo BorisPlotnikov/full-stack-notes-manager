@@ -1,4 +1,4 @@
-// middleware/errorHandler.js
+// backend/middleware/errorHandler.js
 
 import createHttpError from 'http-errors';
 

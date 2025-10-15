@@ -1,4 +1,4 @@
-// apiConfig.js
+// backend/config/apiConfig.js
 
 import dotenv from 'dotenv';
 dotenv.config();

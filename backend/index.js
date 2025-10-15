@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 
 import errorHandler from './middleware/errorHandler.js';
-import apiConfig from './utils/apiConfig.js';
+import apiConfig from './config/apiConfig.js';
 import notesRouter from './routes/notes.js';
 
 dotenv.config();

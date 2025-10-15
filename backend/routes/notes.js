@@ -1,11 +1,11 @@
-// routes/notes.js
+// backend/routes/notes.js
 
 import express from 'express';
 
-import getNotes from './handlers/getNotes.js';
-import createNote from './handlers/createNote.js';
-import updateNote from './handlers/updateNote.js';
-import deleteNote from './handlers/deleteNote.js';
+import getNotes from '../controllers/getNotes.js';
+import createNote from '../controllers/createNote.js';
+import updateNote from '../controllers/updateNote.js';
+import deleteNote from '../controllers/deleteNote.js';
 const router = express.Router();
 
 router.get('/', getNotes);

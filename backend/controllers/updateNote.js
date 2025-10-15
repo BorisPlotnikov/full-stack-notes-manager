@@ -1,6 +1,7 @@
-// routes/handlers/updateNote.js
-import Note from '../../models/Note.js';
-import sendResponse from '../../helpers/sendResponse.js';
+// backend/controllers/updateNote.js
+
+import Note from '../models/Note.js';
+import sendResponse from '../helpers/sendResponse.js';
 
 export default async (req, res, next) => {
 

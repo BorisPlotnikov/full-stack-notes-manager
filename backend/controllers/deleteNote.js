@@ -1,7 +1,7 @@
-// routes/handlers/deleteNote.js
+// backend/controllers/deleteNote.js
 
-import Note from '../../models/Note.js';
-import sendResponse from '../../helpers/sendResponse.js';
+import Note from '../models/Note.js';
+import sendResponse from '../helpers/sendResponse.js';
 
 export default async (req, res, next) => {
     try {

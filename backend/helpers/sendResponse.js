@@ -1,4 +1,4 @@
-// helpers/sendResponse.js
+// backend/helpers/sendResponse.js
 
 const sendResponse = (res, status, data) => {
     res.status(status).json(data);
