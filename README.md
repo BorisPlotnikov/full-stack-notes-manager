@@ -1,4 +1,4 @@
-<div align="center">
+<p align="center">
   <a href="https://reactjs.org/">
     <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react" alt="React">
   </a>
@@ -8,9 +8,9 @@
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js" alt="Node.js">
   </a>
-</div>
+</p>
 
-<div align="center">
+<p align="center">
   <a href="https://mongodb.com/">
     <img src="https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb" alt="MongoDB">
   </a>
@@ -20,7 +20,7 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
-</div>
+</p>
 
 
 # 📝 Full-Stack Notes Manager
