@@ -5,11 +5,14 @@
   <a href="https://expressjs.com/">
     <img src="https://img.shields.io/badge/Express-4.18.2-grey?logo=express" alt="Express">
   </a>
-  <a href="https://mongodb.com/">
-    <img src="https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb" alt="MongoDB">
-  </a>
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js" alt="Node.js">
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://mongodb.com/">
+    <img src="https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb" alt="MongoDB">
   </a>
   <a href="https://classic.yarnpkg.com/">
     <img src="https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn" alt="Yarn Workspaces">
