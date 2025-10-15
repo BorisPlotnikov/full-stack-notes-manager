@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Card, Form, Button } from 'react-bootstrap';
-import '../../../css';
+import '../../../styles';
 
 import CharacterCounter from '../components/CharacterCounter';
 import AccessibilityAlertRegion from '../components/AccessibilityAlertRegion';

@@ -1,4 +1,4 @@
-// /src/css/index.js
+// frontend/src/styles/index.js
 
 import './AccessibilityAlertRegion.css';
 import './App.css';

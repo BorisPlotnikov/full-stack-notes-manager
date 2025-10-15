@@ -6,7 +6,7 @@ import App from './App';
 import AppProviders from './providers/AppProviders';
 import ErrorBoundary from './components/ErrorBoundary';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css';
+import './styles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

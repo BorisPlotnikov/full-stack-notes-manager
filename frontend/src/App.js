@@ -2,7 +2,7 @@
 
 import React from 'react';
 import NotesApp from './features/notes/NotesApp';                     
-import './css/App.css';
+import './styles/App.css';
 
 const App = () => {
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { STATUS_MESSAGES } from '../../../constants';
-import '../../../css';
+import '../../../styles';
 
 const AccessibilityAlertRegion = ({ loading }) => {
     return (

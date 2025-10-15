@@ -1,7 +1,7 @@
 // /src/components/Spinner.js
 
 import React, { useEffect, useState } from 'react';
-import '../css';
+import '../styles';
 
 const Spinner = () => {
     const [showSpinner, setShowSpinner] = useState(false);

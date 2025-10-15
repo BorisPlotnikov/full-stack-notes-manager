@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 import { LENGTHS } from '../../../constants';
 
-import '../../../css';
+import '../../../styles';
 
 const CharacterCounter = ({ contentLength, isNearMaxLength = false }) => {
 

@@ -6,7 +6,7 @@ import { useNoteContent } from '../hooks';
 import { useNotes } from '../context/NotesContext';
 import { LENGTHS } from '../../../constants';
 import CharacterCounter from './CharacterCounter';
-import '../../../css';
+import '../../../styles';
 
 const NoteForm = () => {
     const {

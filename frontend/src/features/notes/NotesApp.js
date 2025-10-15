@@ -6,7 +6,7 @@ import NoteForm from './components/NoteForm';
 import NoteList from './components/NoteList';
 import AppLoader from '../../components/AppLoader';
 import { useNotes } from './context/NotesContext';
-import '../../css';
+import '../../styles';
 
 const NotesApp = () => {
     const { isInitialized } = useNotes();
