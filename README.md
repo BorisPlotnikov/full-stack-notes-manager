@@ -21,6 +21,15 @@
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
 </p>
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![PropTypes](https://img.shields.io/badge/PropTypes-✓-brightgreen)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![React-Bootstrap](https://img.shields.io/badge/React--Bootstrap-563D7C?style=for-the-badge&logo=react&logoColor=white)
+![React Context](https://img.shields.io/badge/react--context-61DAFB?logo=react&logoColor=white)
+![Axios](https://img.shields.io/badge/axios-000000?logo=axios&logoColor=white)
+
+
 
 
 # 📝 Full-Stack Notes Manager
