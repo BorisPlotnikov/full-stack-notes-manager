@@ -1,29 +1,28 @@
 # 📝 Full-Stack Notes Manager
 
-<!-- CORE STACK – Large Badges -->
+<!-- CORE STACK -->
 <p>
-  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/React-18.2.0-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Express-4.18.2-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
-  <img src="https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/MongoDB-6.0.0-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
 </p>
 
-<!-- SUPPORTING LIBRARIES – Smaller Badges -->
+<!-- SUPPORTING LIBRARIES -->
 <p>
   <img src="https://img.shields.io/badge/Mongoose-6.0.0-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose">
-  <img src="https://img.shields.io/badge/Axios-1.5.0-000000?style=flat-square&logo=axios&logoColor=white" alt="Axios">
-  <img src="https://img.shields.io/badge/React%20Context-API-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React Context API">
-  <img src="https://img.shields.io/badge/PropTypes-%E2%9C%93-brightgreen?style=flat-square&logo=react&logoColor=white" alt="PropTypes">
+  <img src="https://img.shields.io/badge/Axios-1.5.0-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios">
+  <img src="https://img.shields.io/badge/React%20Context-API-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Context API">
+  <img src="https://img.shields.io/badge/PropTypes-%E2%9C%93-8A2BE2?style=flat-square&logo=react&logoColor=white" alt="PropTypes">
 </p>
 
-<!-- UI & TOOLING – Smaller Badges -->
+<!-- UI & TOOLING -->
 <p>
   <img src="https://img.shields.io/badge/Bootstrap-5.3.0-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/React--Bootstrap-2.9.0-563D7C?style=flat-square&logo=react&logoColor=white" alt="React Bootstrap">
+  <img src="https://img.shields.io/badge/React--Bootstrap-2.9.0-6C757D?style=flat-square&logo=react&logoColor=white" alt="React Bootstrap">
   <img src="https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?style=flat-square&logo=yarn&logoColor=white" alt="Yarn Workspaces">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=license&logoColor=black" alt="MIT License">
 </p>
-
 
 A full-stack notes management application built with **React**, **Express**, **Node.js**, and **MongoDB** — organized as a monorepo using **Yarn Workspaces**.
 
