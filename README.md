@@ -34,12 +34,66 @@ It features clean architecture, standardized error handling, custom React hooks,
 
 ```
 fullstack-notes-manager/
-├── frontend/   # React application
-├── backend/    # Express API server
-├── .gitignore
-├── yarn.lock
-├── README.md
-└── package.json
+├── backend
+│   ├── config
+│   │   └── apiConfig.js
+│   ├── controllers
+│   │   ├── createNote.js
+│   │   ├── deleteNote.js
+│   │   ├── getNotes.js
+│   │   └── updateNote.js
+│   ├── helpers
+│   │   └── sendResponse.js
+│   ├── index.js
+│   ├── middleware
+│   │   └── errorHandler.js
+│   ├── models
+│   │   └── Note.js
+│   └── routes
+│       └── notes.js
+└── frontend
+    ├── public
+    │   └── index.html
+    └── src
+        ├── App.js
+        ├── components
+        │   ├── AppLoader.js
+        │   ├── ErrorBoundary.js
+        │   └── Spinner.js
+        ├── constants
+        │   ├── apiRoutes.js
+        │   ├── index.js
+        │   ├── limits.js
+        │   ├── messages.js
+        │   └── timeouts.js
+        ├── features
+        │   └── notes
+        │       ├── components
+        │       │   ├── AccessibilityAlertRegion.js
+        │       │   ├── CharacterCounter.js
+        │       │   ├── Note.js
+        │       │   ├── NoteForm.js
+        │       │   └── NoteList.js
+        │       ├── context
+        │       │   ├── NotesContext.js
+        │       │   └── NotesProvider.js
+        │       ├── hooks
+        │       │   ├── index.js
+        │       │   ├── useApiRequest.js
+        │       │   ├── useNoteActions.js
+        │       │   └── useNoteContent.js
+        │       └── NotesApp.js
+        ├── hooks
+        │   ├── index.js
+        │   └── useErrorHandler.js
+        ├── index.js
+        ├── providers
+        │   └── AppProviders.js
+        └── utils
+            ├── apiConfig.js
+            ├── errorHandler.js
+            ├── parseError.js
+            └── validateNoteContent.js
 ```
 
 ---
