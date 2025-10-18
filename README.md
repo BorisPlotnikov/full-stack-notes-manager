@@ -33,6 +33,23 @@ It features clean architecture, standardized error handling, custom React hooks,
 ## 📁 Project Structure
 
 ```
+├── backend
+│   ├── controllers/       # CRUD logic for notes
+│   ├── models/            # Mongoose Note model
+│   ├── routes/            # Express routes
+│   └── index.js           # Entry point
+└── frontend
+    ├── src/
+    │   ├── features/notes/ # Note-related components, context, hooks
+    │   ├── components/     # Shared UI elements
+    │   ├── hooks/          # Global custom hooks
+    │   ├── constants/      # API routes, limits, etc.
+    │   └── index.js        # React entry point
+
+
+```
+
+```
 fullstack-notes-manager/
 ├── backend
 │   ├── config
