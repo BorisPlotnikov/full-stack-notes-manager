@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?style=for-the-badge&logo=node.js" alt="Node.js">
   <img src="https://img.shields.io/badge/Express-4.18.2-000000?style=for-the-badge&logo=express" alt="Express">
   <img src="https://img.shields.io/badge/MongoDB-6.0.0-47A248?style=for-the-badge&logo=mongodb" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/4.18.2-white?style=for-the-badge&color=white&labelColor=white&logoColor=black" alt="Version">
+
 </p>
 
 <!-- SUPPORTING LIBRARIES -->
