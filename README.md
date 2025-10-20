@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/MongoDB-6.0.0-47A248?style=for-the-badge&logo=mongodb" alt="MongoDB">
 </p>
 
+![Mongoose](https://img.shields.io/badge/Mongoose-100000?style=for-the-badge&logo=mongoose&logoColor=white)
+
 <!-- SUPPORTING LIBRARIES -->
 <p>
   <img src="https://img.shields.io/badge/Mongoose-6.0.0-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose">
