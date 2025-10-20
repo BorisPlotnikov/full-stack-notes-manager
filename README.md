@@ -1,6 +1,6 @@
 # 📝 Full-Stack Notes Manager
 
-<p>
+<p align = "center">
   <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?style=for-the-badge&logo=node.js" alt="Node.js">
   <img src="https://img.shields.io/badge/Express-4.18.2-05339C?style=for-the-badge&logo=express" alt="Express">
@@ -89,6 +89,8 @@ fullstack-notes-manager/
 - [Node.js](https://nodejs.org/) (v18+ recommended)
 - [Yarn](https://classic.yarnpkg.com/) (v1.22+)
 - [MongoDB](https://www.mongodb.com/) (local or remote)
+
+🛠️ Note: This project uses Yarn Workspaces for managing multiple packages (e.g., client, server) in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
 
 ### Installation
 
