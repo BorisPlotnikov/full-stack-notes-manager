@@ -1,66 +1,11 @@
 # 📝 Full-Stack Notes Manager
 
-<!-- CORE STACK -->
 <p>
   <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?style=for-the-badge&logo=node.js" alt="Node.js">
   <img src="https://img.shields.io/badge/Express-4.18.2-05339C?style=for-the-badge&logo=express" alt="Express">
   <img src="https://img.shields.io/badge/MongoDB-6.0.0-47A248?style=for-the-badge&logo=mongodb" alt="MongoDB">
 </p>
-
-![mongoose](https://img.shields.io/badge/mongoose‑ODM‑000000?style=for-the-badge&logo=&logoColor=white)
-
-
-<!-- SUPPORTING LIBRARIES -->
-<p>
-  <img src="https://img.shields.io/badge/Mongoose-6.0.0-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose">
-  <img src="https://img.shields.io/badge/Axios-1.5.0-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios">
-  <img src="https://img.shields.io/badge/React%20Context-API-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Context API">
-  <img src="https://img.shields.io/badge/PropTypes-%E2%9C%93-8A2BE2?style=flat-square&logo=react&logoColor=white" alt="PropTypes">
-</p>
-
-<!-- UI & TOOLING -->
-<p>
-  <img src="https://img.shields.io/badge/Bootstrap-5.3.0-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/React--Bootstrap-2.9.0-6C757D?style=flat-square&logo=react&logoColor=white" alt="React Bootstrap">
-  <img src="https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?style=flat-square&logo=yarn&logoColor=white" alt="Yarn Workspaces">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=license&logoColor=black" alt="MIT License">
-</p>
-
-
-
-
-[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
-[![Express](https://img.shields.io/badge/Express-4.18.2-grey?logo=express)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-6.0.0-4EA94B?logo=mongodb)](https://mongodb.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-18.17.0-339933?logo=node.js)](https://nodejs.org/)
-[![Yarn Workspaces](https://img.shields.io/badge/Yarn-Workspaces-2C8EBB?logo=yarn)](https://classic.yarnpkg.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-# 📝 Fullstack Notes Manager
-
-<p>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/BorisPlotnikov/fullstack-notes-manager/ci.yml?branch=main" alt="Build Status" />
-  </a>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/issues">
-    <img src="https://img.shields.io/github/issues/BorisPlotnikov/fullstack-notes-manager" alt="Open Issues" />
-  </a>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/pulls">
-    <img src="https://img.shields.io/github/issues-pr/BorisPlotnikov/fullstack-notes-manager" alt="Open PRs" />
-  </a>
-  <a href="https://github.com/BorisPlotnikov/fullstack-notes-manager/commits/main">
-    <img src="https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager" alt="Last Commit" />
-  </a>
-</p>
-
-
-A full-stack notes management application built with **React**, **Express**, **Node.js**, and **MongoDB** — organized as a monorepo using **Yarn Workspaces**.
-
-It features clean architecture, standardized error handling, custom React hooks, and responsive styling with Bootstrap.
-
-![GitHub last commit](https://img.shields.io/github/last-commit/BorisPlotnikov/fullstack-notes-manager)
-![GitHub license](https://img.shields.io/github/license/BorisPlotnikov/fullstack-notes-manager)
 
 
 A full-stack notes management application built with **React**, **Express**, **Node.js**, and **MongoDB** — organized as a monorepo using **Yarn Workspaces**.
@@ -70,23 +15,6 @@ It features clean architecture, standardized error handling, custom React hooks,
 ---
 
 ## 📁 Project Structure
-
-```
-├── backend
-│   ├── controllers/       # CRUD logic for notes
-│   ├── models/            # Mongoose Note model
-│   ├── routes/            # Express routes
-│   └── index.js           # Entry point
-└── frontend
-    ├── src/
-    │   ├── features/notes/ # Note-related components, context, hooks
-    │   ├── components/     # Shared UI elements
-    │   ├── hooks/          # Global custom hooks
-    │   ├── constants/      # API routes, limits, etc.
-    │   └── index.js        # React entry point
-
-
-```
 
 ```
 fullstack-notes-manager/
