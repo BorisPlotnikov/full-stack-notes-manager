@@ -1,6 +1,6 @@
 # 📝 Full-Stack Notes Manager
 
-<p align = "center">
+<p>
   <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Node.js-18.17.0-339933?style=for-the-badge&logo=node.js" alt="Node.js">
   <img src="https://img.shields.io/badge/Express-4.18.2-05339C?style=for-the-badge&logo=express" alt="Express">
@@ -95,6 +95,31 @@ fullstack-notes-manager/
 
 🛠️ Note: This project uses Yarn Workspaces for managing multiple packages (e.g., client, server) in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
 
+
+### Step-by-step how to start the notes manager:
+
+- [Secure the prerequisits]
+- [Clone the repository]
+```bash
+git clone https://github.com/BorisPlotnikov/full-stack-notes-manager.git
+```
+- [install dependencies]
+```bash
+yarn install
+```
+- [use provided templated to set environmental variables]
+backend .env.Example:
+replace <username>, <password> and <dbname> in MongoDB Atlas connection string
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+and remove .Example part of the file name
+
+frontend .env.Example:
+remove .Example part of the file name
+
+- [Launch the app]
+```bash
+yarn dev
+```
 
 ### Installation
 
