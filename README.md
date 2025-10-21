@@ -84,13 +84,17 @@ fullstack-notes-manager/
 
 ## 🚀 Getting Started
 
+
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18+ recommended)
-- [Yarn](https://classic.yarnpkg.com/) (v1.22+)
-- [MongoDB](https://www.mongodb.com/) (local or remote)
+- [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (recommended code editor)  
+- [Git](https://git-scm.com/) (for cloning the repository and version control)  
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (for cloud-based database – free tier available)  
+- [Node.js](https://nodejs.org/) (v18+ recommended)  
+- [Yarn](https://classic.yarnpkg.com/) (v1.22+)  
 
 🛠️ Note: This project uses Yarn Workspaces for managing multiple packages (e.g., client, server) in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
+
 
 ### Installation
 
