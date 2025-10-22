@@ -82,11 +82,9 @@ fullstack-notes-manager/
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Step-by-Step: How to Start the Notes Manager
 
-
-### Prerequisites
-
+- **Prerequisites:**  
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (recommended code editor)  
 - [Git](https://git-scm.com/) (for cloning the repository and version control)  
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (for cloud-based database – free tier available)  
@@ -95,31 +93,35 @@ fullstack-notes-manager/
 
 🛠️ Note: This project uses Yarn Workspaces for managing multiple packages (e.g., client, server) in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
 
+- **Clone the repository**  
+  ```bash
+  git clone https://github.com/BorisPlotnikov/full-stack-notes-manager.git
+  cd full-stack-notes-manager
+  ```
 
-### Step-by-step how to start the notes manager:
+- **Install dependencies**  
+  ```bash
+  yarn install
+  ```
 
-- [Secure the prerequisits]
-- [Clone the repository]
-```bash
-git clone https://github.com/BorisPlotnikov/full-stack-notes-manager.git
-```
-- [install dependencies]
-```bash
-yarn install
-```
-- [use provided templated to set environmental variables]
-backend .env.Example:
-replace <username>, <password> and <dbname> in MongoDB Atlas connection string
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
-and remove .Example part of the file name
+- **Configure environment variables:**  
+  1. Change names of .env.Example files to .env in both backend/ and frontend/
+     ```bash
+     mv backend/.env.Example backend/.env
+     ```  
+     ```bash
+     mv frontend/.env.Example frontend/.env
+     ```
+  
+  2. Open backend/.env.Example and replace the placeholders <username>, <password>, and <dbname> with your actual MongoDB credentials in the MongoDB URI:  
+     ```env
+     MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+     ```  
 
-frontend .env.Example:
-remove .Example part of the file name
-
-- [Launch the app]
-```bash
-yarn dev
-```
+- **Launch the app**  
+  ```bash
+  yarn dev
+  ```
 
 ### Installation
 
@@ -127,7 +129,7 @@ yarn dev
 yarn install
 ```
 
-### Run the Fullstack App
+### Run the full-stack App
 
 ```bash
 yarn dev
