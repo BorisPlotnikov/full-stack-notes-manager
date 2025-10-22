@@ -86,26 +86,31 @@ fullstack-notes-manager/
 
 - **Prerequisites:**  
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (recommended code editor)  
-- [Git](https://git-scm.com/) (for cloning the repository and version control)  
+- [Git](https://git-scm.com/) (for cloning the repository)  
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (for cloud-based database – free tier available)  
 - [Node.js](https://nodejs.org/) (v18+ recommended)  
 - [Yarn](https://classic.yarnpkg.com/) (v1.22+)  
 
-🛠️ Note: This project uses Yarn Workspaces for managing multiple packages (e.g., client, server) in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
+🛠️ Note: This project uses Yarn Workspaces for managing the front- and backend in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
 
 - **Clone the repository**  
+After installing [Git](https://git-scm.com/) clone the repository to your desktop:
   ```bash
   git clone https://github.com/BorisPlotnikov/full-stack-notes-manager.git
   cd full-stack-notes-manager
   ```
 
 - **Install dependencies**  
+After installing [Yarn](https://classic.yarnpkg.com/) (v1.22+) install project's dependencies:
   ```bash
   yarn install
   ```
 
+- **Set up the database**
+Follow the instructions to create free account and set up a database on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) to store your notes.
+
 - **Configure environment variables:**  
-  1. Change names of .env.Example files to .env in both backend/ and frontend/
+  1. Change names of .env.Example files to .env in both backend/ and frontend/:
      ```bash
      mv backend/.env.Example backend/.env
      ```  
@@ -113,51 +118,18 @@ fullstack-notes-manager/
      mv frontend/.env.Example frontend/.env
      ```
   
-  2. Open backend/.env.Example and replace the placeholders <username>, <password>, and <dbname> with your actual MongoDB credentials in the MongoDB URI:  
+  2. After changing the names open backend/.env and replace the placeholders <username>, <password>, and <dbname> with your actual MongoDB credentials in the MongoDB URI:  
      ```env
      MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
      ```  
 
 - **Launch the app**  
+Both, back- and frontend will start from a single command:
   ```bash
   yarn dev
   ```
 
-### Installation
-
-```bash
-yarn install
-```
-
-### Run the full-stack App
-
-```bash
-yarn dev
-```
-
-- Frontend: [http://localhost:3000](http://localhost:3000)
-- Backend: [http://localhost:5000/api](http://localhost:5000/api)
-
 > The frontend automatically proxies API calls to the backend.
-
----
-
-## ⚙️ Environment Variables
-
-### \`backend/.env\`
-
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/notes
-JWT_SECRET=your-secret-key
-```
-
-### \`frontend/.env\`
-
-```env
-PORT=3000
-REACT_APP_API_BASE_URL=http://localhost:5000/api
-```
 
 ---
 
