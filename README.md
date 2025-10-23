@@ -82,26 +82,24 @@ fullstack-notes-manager/
 
 ---
 
-### 🚀 Step-by-Step: How to Start the Notes Manager
+### 🚀 Step-by-Step How to Start the Notes Manager:
 
 - **Prerequisites:**  
-- [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (recommended code editor)  
+- [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (or you code editor of choice)  
 - [Git](https://git-scm.com/) (for cloning the repository)  
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (for cloud-based database – free tier available)  
 - [Node.js](https://nodejs.org/) (v18+ recommended)  
-- [Yarn](https://classic.yarnpkg.com/) (v1.22+)  
-
-🛠️ Note: This project uses Yarn Workspaces for managing the front- and backend in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.
+- [Yarn](https://classic.yarnpkg.com/) (This project uses Yarn Workspaces for managing the front- and backend in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.)
 
 - **Clone the repository**  
-After installing [Git](https://git-scm.com/) clone the repository to your desktop:
+Install [Git](https://git-scm.com/) and clone the repository to your desktop:
   ```bash
   git clone https://github.com/BorisPlotnikov/full-stack-notes-manager.git
   cd full-stack-notes-manager
   ```
 
 - **Install dependencies**  
-After installing [Yarn](https://classic.yarnpkg.com/) (v1.22+) install project's dependencies:
+Install [Yarn](https://classic.yarnpkg.com/) (v1.22+) and install project's dependencies:
   ```bash
   yarn install
   ```
