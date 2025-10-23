@@ -82,16 +82,16 @@ fullstack-notes-manager/
 
 ---
 
-### 🚀 Step-by-Step How to Start the Notes Manager:
+## 🚀 Step-by-Step How to Start the Notes Manager:
 
-## Prerequisites:
+### Prerequisites:
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (or you code editor of choice)  
 - [Git](https://git-scm.com/) (for cloning the repository)  
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (for cloud-based database – free tier available)  
 - [Node.js](https://nodejs.org/) (v18+ recommended)  
 - [Yarn](https://classic.yarnpkg.com/) (This project uses Yarn Workspaces for managing the front- and backend in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.)
 
-## Repository:
+### Repository:
 - Install [Git](https://git-scm.com/)
 - Clone the repository:
   ```bash
@@ -99,17 +99,17 @@ fullstack-notes-manager/
   cd full-stack-notes-manager
   ```
 
-## Dependencies:
+### Dependencies:
 - Install [Yarn](https://classic.yarnpkg.com/) (v1.22+)
 - Install project's dependencies:
   ```bash
   yarn install
   ```
 
-## Database:
+### Database:
 Follow the instructions to create free account and set up a database on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) to store your notes.
 
-## Environment variables:  
+### Environment variables:  
 - Change names of .env.Example files to .env in both backend/ and frontend/:
      ```bash
      mv backend/.env.Example backend/.env
@@ -123,7 +123,7 @@ Follow the instructions to create free account and set up a database on [MongoDB
      MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
      ```  
 
-## Launch: 
+### Launch: 
 - Both, back- and frontend will start from a single command:
   ```bash
   yarn dev
