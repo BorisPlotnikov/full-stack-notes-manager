@@ -107,7 +107,7 @@ fullstack-notes-manager/
   ```
 
 ### Database:
-Follow the instructions to create free account and set up a database on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) to store your notes.
+- Follow the instructions to create free account and set up a database on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) to store your notes.
 
 ### Environment variables:  
 - Change names of .env.Example files to .env in both backend/ and frontend/:
