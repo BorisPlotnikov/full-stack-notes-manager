@@ -85,10 +85,10 @@ fullstack-notes-manager/
 ## 🚀 Step-by-Step How to Start the Notes Manager:
 
 ### Prerequisites:
-- [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (or you code editor of choice)  
+- [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (or your editor of choice)  
 - [Git](https://git-scm.com/) (for cloning the repository)  
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (for cloud-based database – free tier available)  
-- [Node.js](https://nodejs.org/) (v18+ recommended)  
+- [Node.js](https://nodejs.org/)
 - [Yarn](https://classic.yarnpkg.com/) (This project uses Yarn Workspaces for managing the front- and backend in a monorepo structure. Using yarn instead of npm is strongly recommended to ensure dependencies are properly linked.)
 
 ### Repository:
@@ -118,7 +118,7 @@ fullstack-notes-manager/
      mv frontend/.env.Example frontend/.env
      ```
   
-- After changing the names open backend/.env and replace the placeholders <username>, <password>, and <dbname> with your actual MongoDB credentials in the MongoDB URI:  
+- After changing the names open `backend/.env` and replace the placeholders `<username>`, `<password>`, and `<dbname>` with your actual MongoDB credentials in the MongoDB URI:  
      ```env
      MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
      ```  
